@@ -746,7 +746,6 @@ img {
 	background: #2F303A;
 }
 
-
 .sign {
 	
 	font-style: 400;
@@ -754,6 +753,17 @@ img {
 	font-size: 16px;
 	line-height: 1.87;
 	letter-spacing: 0.06em;
+	margin-right: 10px;
 
 	color: var(--dark-side-color);
+}
+
+.sign-icon {
+	align-self: center;
+}
+
+.sign-box {
+	display: flex;
+	justify-content: center;
+	
 }
