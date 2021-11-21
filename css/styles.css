@@ -116,7 +116,7 @@ img {
 	content: '';
 	position: absolute;
 	display: inline-block;
-	top: calc(100% + 27px);
+	top: calc(100% + 28px);
 	left: 0;
 	height: 4px;
 	width: 100%;
