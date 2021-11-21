@@ -284,6 +284,28 @@ img {
 	background-color: var(--dark-side-color);
 }
 
+.modal-title {
+	font-style: 400;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+.modal-title-text {
+	font-style: 400;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.03em;
+
+	color: var(--primary-text-color);
+}
+
 .modal-btn {
 	position: absolute;
 	top: 10px;
@@ -305,11 +327,27 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: var(--header-accent-color);
+	/* color: var(--header-accent-color); */
 }
 
-.modal-btn-symbol:hover {
-	color: var(--accent-color);
+.reg-field {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 75px;
+	left: 40px;
+} 
+
+.input-field {
+	margin-bottom: 10px;
+}
+
+.btn-symbol {
+	fill: var(--header-accent-color);
+}
+
+.btn-symbol:hover {
+	fill: var(--accent-color);
 }
 
 .container-work {
@@ -592,16 +630,6 @@ img {
 	/* pointer-events:none; */
 }
 
-/* .projects-items-textbox:hover,
-.projects-items-textbox:focus {
-  transform: translateY(0);
-} */
-
-/* .projects-items-text:hover,
-.projects-items-text:focus {
-  transform: translateY(100%);
-} */
-
 .link-box {
 	position: relative;
 	width: 370px;
@@ -744,11 +772,10 @@ img {
 	box-sizing: border-box;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 	border-radius: 4px;
-	background: #2F303A;
+	background: #2f303a;
 }
 
 .sign {
-	
 	font-style: 400;
 	font-weight: 700;
 	font-size: 16px;
@@ -766,5 +793,4 @@ img {
 .sign-box {
 	display: flex;
 	justify-content: center;
-	
 }
