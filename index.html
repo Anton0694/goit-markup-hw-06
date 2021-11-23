@@ -76,13 +76,13 @@
 								</svg>
 							</div>
 						</button>
-						<form class="form">
-							<div>
+						<form >
+							<div class="form" autocomplete="off">
 								<label class="form-field" >
 									<input class="input-form" type="text" name="name" placeholder=" ">
 									<span class="form-lable">Имя</span>
 									<span class="modal-icon">
-										<svg  width="12" height="12">
+										<svg  width="15" height="15">
 										<use href="./images/icons.svg#icon-person-black-18dp-1"></use>
 										</svg>
 									</span>
@@ -91,7 +91,7 @@
 									<input class="input-form" type="tel" name="tel" placeholder=" ">
 									<span class="form-lable">Телефон</span>
 									<span class="modal-icon">
-										<svg  width="13" height="13">
+										<svg  width="15" height="15">
 										<use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
 										</svg>
 									</span>
@@ -105,9 +105,19 @@
 										</svg>
 									</span>
 								</label>
-								<textarea class="textarea" name="comment" rows="10" placeholder="Введите текст">Оставьте комментарий</textarea>
-								<input class="accept-check" type="checkbox" name="accept" value="accept"><span class="accept-check-text">Соглашаюсь с рассылкой и принимаю </span><a href="">Условия договора</a> 
+								<textarea class="textarea" name="comment" rows="6" placeholder="Введите текст">Введите текст</textarea>
 							</div>
+							<input 
+								class="accept-check" 
+								type="checkbox" 
+								name="accept" 
+								value="accept">
+								<span class="accept-check-text">Соглашаюсь с рассылкой и принимаю </span>
+								<a class="condition" href="">Условия договора</a> 
+								
+							<button class="send-btn" type="button"> 
+									<span class="sign">Отправить</span> 
+							</button>
 						</form>
 					</div>
 				</div>
@@ -476,8 +486,8 @@
 					</div>
 					<div class="social-footer-list">
 						<h3 class="footer-social-title">Подпишитесь на рассылку</h3>
-						<form class="social-links-form" action="">
-							<label for="">
+						<form class="social-links-form">
+							<label >
 								<input class="email-field" type="email" name="email" placeholder="E-mail">
 							</label>
 							<button class="form-btn" type="button"> 
