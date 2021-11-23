@@ -321,7 +321,7 @@ img {
 }
 
 .modal-btn:hover,
-.modal-btn:focus {
+.modal-btn:focus{
 	border: 1px solid var(--accent-color);
 }
 
@@ -330,6 +330,14 @@ img {
 	align-items: center;
 	justify-content: center;
 	/* color: var(--header-accent-color); */
+}
+
+.btn-symbol {
+	fill: var(--header-accent-color);
+}
+
+.btn-symbol:hover {
+	fill: var(--accent-color);
 }
 
 .form {
@@ -398,7 +406,9 @@ img {
 
 	transform: translateY(-50%);
 
-	/* display: inline-block; */
+	
+
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-form:focus ~ .modal-icon {
@@ -450,13 +460,6 @@ img {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	border: 0;
-}
-.btn-symbol {
-	fill: var(--header-accent-color);
-}
-
-.btn-symbol:hover {
-	fill: var(--accent-color);
 }
 
 .container-work {
