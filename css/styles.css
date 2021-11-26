@@ -437,9 +437,10 @@ img {
 
 .accept-check:checked ~ .icon-check {
 	background-image: url('../images/icon-check.svg');
-	background-size: cover;
+	background-size: 100%;
 	background-origin: border-box;
 	border: 2px solid var(--accent-color);
+	background-color: var(--accent-color);
 }
 
 .accept-check-text {
