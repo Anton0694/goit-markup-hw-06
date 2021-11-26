@@ -421,7 +421,7 @@ img {
 	border: 1px solid var(--accent-color);
 }
 .accept-check {
-	margin-left: 54px;
+	margin-left: 14px;
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	appearance: none;
@@ -440,7 +440,6 @@ img {
 	background-size: cover;
 	background-origin: border-box;
 	border: 2px solid var(--accent-color);
-	
 }
 
 .accept-check-text {
@@ -896,6 +895,7 @@ img {
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 	border-radius: 4px;
 	background: #2f303a;
+	color: var(--dark-side-color);
 }
 
 .sign {
